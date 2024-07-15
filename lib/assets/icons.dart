@@ -1,0 +1,49 @@
+const _home = "assets/home";
+const _dashboard = "assets/dashboard";
+const _courses = "assets/courses";
+const _saved = "assets/saved";
+
+class AppIcons {
+  static const logo = "assets/icons/logo.svg";
+  final arrowLeft = "assets/icons/arrow_left.svg";
+  static const changeImage = "assets/icons/signin/change_image.svg";
+  static const calendar = "assets/icons/signin/calendar.svg";
+  static const down = "assets/icons/signin/down.svg";
+  final timeImg = "$_dashboard/time.svg";
+  final activeImg = "$_dashboard/active.svg";
+  final home = "$_home/home.svg";
+  final play = "$_home/play.svg";
+  final premium = "$_home/premium.svg";
+  final saved = "$_home/save.svg";
+  final drop = "$_courses/drop_icon.svg";
+  final right = "$_courses/right_icon.svg";
+  final playCircle = "$_courses/play_circle_icon.svg";
+  final like = "$_courses/like.svg";
+  final info = "$_courses/info.svg";
+  final comment = "$_courses/comment.svg";
+  final active = "$_courses/active.svg";
+  final save = "$_courses/save.svg";
+  final activeInfo = "$_courses/active_info.svg";
+  final deActive = "$_courses/de_active.svg";
+  final activeComment = "$_courses/active_comment.svg";
+  final send = "$_courses/send.svg";
+  final playSavedCircle = "$_saved/play_circle.svg";
+  final threeDot = "$_saved/three_dot.svg";
+  final notificationsIcon = "$_dashboard/notifications.svg";
+  final exit = "$_dashboard/exit.svg";
+  final rightLine = "$_dashboard/right.svg";
+  final activeSave = "$_courses/active_save.svg";
+  final activeLike = "$_courses/active_like.svg";
+
+  final wider = "assets/icons/profile/wider.svg";
+  final note = "assets/icons/profile/note.svg";
+  final vector = "assets/icons/profile/vector.svg";
+  final noPhoto = "assets/icons/profile/no_photo.svg";
+  final plus = "assets/icons/profile/plus.svg";
+  final profilImage = "assets/icons/profile/profile_image.svg";
+  final changeProfile = "assets/icons/profile/change_profile.svg";
+  final shareApp = "assets/icons/profile/share_app.svg";
+  final privacy = "assets/icons/profile/privacy.svg";
+  final logOut = "assets/icons/profile/logout.svg";
+  final delete = "assets/icons/profile/delete.svg";
+}
