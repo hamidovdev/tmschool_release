@@ -29,7 +29,7 @@ def keystorePropertiesFile = rootProject.file('key.properties')
    }
 
 android {
-    namespace "org.urfan.tm_school"
+    namespace "com.teacher_muzaffar.tm_school"
     compileSdkVersion 34
     ndkVersion flutter.ndkVersion
 
@@ -47,7 +47,8 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.teachermuzaffar.tmschool"
+        multiDexEnabled true
+        applicationId "com.teacher_muzaffar.tm_school"
         minSdkVersion 21
         targetSdkVersion 34
          versionCode flutterVersionCode.toInteger()
@@ -72,6 +73,7 @@ flutter {
     source '../..'
 }
 
-dependencies { 
+dependencies {
+     implementation 'com.android.support:multidex:2.0.1'
      implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }

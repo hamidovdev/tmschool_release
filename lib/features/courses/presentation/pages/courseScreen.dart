@@ -647,13 +647,20 @@ class _CoursesScreenState extends State<CoursesScreen> {
                                                       controller:
                                                           state.controller!,
                                                       success: (url) {
-                                                        Navigator.of(context,
-                                                                rootNavigator:
-                                                                    true)
-                                                            .pushNamed(
-                                                          AppRouteName
-                                                              .youtubePlayerPage,
-                                                        );
+                                                        state.controller!.load(
+                                                            YoutubePlayer
+                                                                    .convertUrlToId(
+                                                                        url) ??
+                                                                "");
+                                                        state.controller!
+                                                            .pause();
+                                                        // Navigator.of(context,
+                                                        //         rootNavigator:
+                                                        //             true)
+                                                        //     .pushNamed(
+                                                        //   AppRouteName
+                                                        //       .youtubePlayerPage,
+                                                        // );
                                                       },
                                                     ),
                                                   ),

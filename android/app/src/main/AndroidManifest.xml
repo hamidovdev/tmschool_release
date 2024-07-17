@@ -1,14 +1,13 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools"
-          package="com.teachermuzaffar.tmschool">
+<manifest 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teacher_muzaffar.tm_school">
           <uses-permission android:name="android.permission.INTERNET" />
     <application
-        name="com.example.bliss_000.todolistapp.AppController"
         android:label="TM school"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
-            android:name=".MainActivity"
+            android:name="com.lc_up.tm.tm_school.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
